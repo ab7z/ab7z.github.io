@@ -4,12 +4,15 @@
   margin-inline-start: 0;
   margin-inline-end: 0;
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
 }
 
 body {
@@ -36,6 +39,12 @@ p {
   font-family: "IBM Plex Mono", monospace, sans-serif;
 }
 
+img {
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -52,7 +61,6 @@ nav {
 
 .logo {
   width: 35px;
-  height: 28px;
   border: 1px solid white;
   padding: 2px 0;
 }
@@ -94,7 +102,6 @@ p {
 
   .logo {
     width: 45px;
-    height: 40px;
   }
 
   .gh {
