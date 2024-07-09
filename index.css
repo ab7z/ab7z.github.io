@@ -1,9 +1,6 @@
 @import url("preflight.css");
 
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   align-self: self-start;
   width: 100%;
 }
@@ -11,13 +8,8 @@ header {
 nav {
   width: auto;
   display: flex;
-  align-items: baseline;
-}
-
-.logo {
-  width: 35px;
-  border: 1px solid white;
-  padding: 2px 0;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .gh {
@@ -53,10 +45,6 @@ p {
   p {
     line-height: 1.8rem;
     font-size: 1.4em;
-  }
-
-  .logo {
-    width: 45px;
   }
 
   .gh {
